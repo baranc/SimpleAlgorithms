@@ -4,13 +4,6 @@ import java.util.Arrays;
 
 public class Series {
 
-    public static void main(String[] args) {
-	// write your code here
-        System.out.println(nSum(2,5,2));
-        System.out.println(nSum(0));
-        System.out.println(factorial(5));
-        System.out.println("fibonacci: "+ fibonacci(3));
-    }
     public static int nSum(int ...n){
         if(n.length == 1)
             return n[0];
